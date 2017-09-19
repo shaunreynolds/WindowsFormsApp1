@@ -10,17 +10,22 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Roland : Form
     {
-        public Form1()
+        public Roland()
         {
             InitializeComponent();
+            textBox1.Text = "Roland";
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            Roland classs = new Roland();
-            classs.Show();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }
