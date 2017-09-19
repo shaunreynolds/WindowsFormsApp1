@@ -23,6 +23,12 @@ namespace WindowsFormsApp1
             classs.Show();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form form = new Form();
+            form.Show(this);
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             Bradley class = new Bradley();
