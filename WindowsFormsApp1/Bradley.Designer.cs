@@ -57,6 +57,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Bradley";
             this.Text = "Bradley";
+            this.Load += new System.EventHandler(this.Bradley_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

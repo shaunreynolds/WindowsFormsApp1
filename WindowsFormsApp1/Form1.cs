@@ -17,6 +17,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        //hello
         private void button3_Click(object sender, EventArgs e)
         {
             Roland classs = new Roland();
@@ -31,8 +32,12 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Bradley classs = new Bradley();
-            classs.Show();
-        }
+             Bradley classs = new Bradley();
+             classs.Show();
+
+
+    }
+
+          
     }
 }
