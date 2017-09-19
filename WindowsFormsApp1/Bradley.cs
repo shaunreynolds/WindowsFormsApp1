@@ -22,5 +22,10 @@ namespace WindowsFormsApp1
         {
             this.Hide();
         }
+
+        private void Bradley_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
