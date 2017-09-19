@@ -22,5 +22,15 @@ namespace WindowsFormsApp1
         {
             this.Hide();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Roland_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

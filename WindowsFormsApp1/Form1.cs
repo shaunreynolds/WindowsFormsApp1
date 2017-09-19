@@ -31,8 +31,12 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Bradley class = new Bradley();
-            class.show
-        }
+             Bradley classs = new Bradley();
+             classs.Show();
+
+
+    }
+
+          
     }
 }
