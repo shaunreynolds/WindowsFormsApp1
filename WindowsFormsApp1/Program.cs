@@ -16,6 +16,7 @@ namespace WindowsFormsApp1
         {
             // hello from shaun
             Application.EnableVisualStyles();
+            // Hello from Rolland
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             // hello
