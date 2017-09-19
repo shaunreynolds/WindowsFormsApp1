@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bradley.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bradley.Designer.cs">
+      <DependentUpon>Bradley.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     <Compile Include="Roland.Designer.cs">
       <DependentUpon>Roland.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Bradley.resx">
+      <DependentUpon>Bradley.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

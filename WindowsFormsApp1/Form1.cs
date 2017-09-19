@@ -22,5 +22,11 @@ namespace WindowsFormsApp1
             Roland classs = new Roland();
             classs.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Bradley class = new Bradley();
+            class.show
+        }
     }
 }

@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Roland : Form
+    public partial class Bradley : Form
     {
-        public Roland()
+        public Bradley()
         {
             InitializeComponent();
-            textBox1.Text = "Roland";
+            textBox1.Text = "Hello world";
         }
 
         private void button1_Click(object sender, EventArgs e)
