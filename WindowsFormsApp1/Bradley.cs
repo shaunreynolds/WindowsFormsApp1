@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            int a1, a2, result;
+            int a1, a2;
             a1 = int.Parse(txtFirst.Text);
             a2 = int.Parse(txtSecond.Text);
 
