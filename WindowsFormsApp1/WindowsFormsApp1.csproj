@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BradClass.cs" />
     <Compile Include="Bradley.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -15,16 +15,17 @@ namespace WindowsFormsApp1
         public Bradley()
         {
             InitializeComponent();
-            textBox1.Text = "Hello world";
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSubmit_Click(object sender, EventArgs e)
         {
-            this.Hide();
-        }
+            int a1, a2, result;
+            a1 = int.Parse(txtFirst.Text);
+            a2 = int.Parse(txtSecond.Text);
 
-        private void Bradley_Load(object sender, EventArgs e)
-        {
+            BradClass answer = new BradClass();
+            txtResult.Text = answer.add(a1,a2)+"";
 
         }
     }
