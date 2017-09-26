@@ -14,7 +14,9 @@ namespace RolandUnitest
 
             test.add(5);
             test.add(0);
-
+            Assert.IsNotNull(0);
+            Assert.IsFalse(false);
+           
 
 
         }
