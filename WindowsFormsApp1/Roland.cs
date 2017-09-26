@@ -32,5 +32,23 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            myClass getNum = new myClass();
+            string s = textBox2.Text;
+            int i = Int32.Parse(s);
+
+            
+
+            textBox1.Text= getNum.add(i).ToString();
+
+
+        }
     }
 }
