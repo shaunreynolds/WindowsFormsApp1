@@ -40,10 +40,14 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            int i=0;
             myClass getNum = new myClass();
             string s = textBox2.Text;
-            int i = Int32.Parse(s);
-
+            try
+            {
+               i = Int32.Parse(s);
+            }
+            catch (FormatException ej) { };
             
 
             textBox1.Text= getNum.add(i).ToString();
