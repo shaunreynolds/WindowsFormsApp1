@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class BradClass
+    public class BradClass
     {
 
         public int add(int a1, int a2)
