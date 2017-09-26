@@ -6,12 +6,24 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class StringManipulation
+    public class StringManipulation
     {
 
         public String toUpperCase(String s)
         {
             return s.ToUpper();
+        }
+
+        public bool isUpper(String s)
+        {
+            foreach(char c in s.ToCharArray())
+            {
+                if (!char.IsUpper(c))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
