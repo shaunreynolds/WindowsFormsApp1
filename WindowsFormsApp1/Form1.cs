@@ -26,7 +26,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form form = new Form();
+            ShaunForm form = new ShaunForm();
             form.Show(this);
         }
 
