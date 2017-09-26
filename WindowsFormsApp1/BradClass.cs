@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    public class myClass
+    class BradClass
     {
 
-
-
-        public int add(int i)
+        public int add(int a1, int a2)
         {
-        
-        int result = i + i;
-        return result;
+            
+
+
+            int result = a1 + a2;
+            return result;
         }
 
 
-}
+    }
 }

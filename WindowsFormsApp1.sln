@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{E393EB9F-A45A-454E-AB95-9F5CF660D5B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolandUnitest", "RolandUnitest\RolandUnitest.csproj", "{430330FD-B17D-4FF9-BC72-E2B5B829B421}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{DF51B9F2-CB6B-4956-AD33-4D3A837C1CED}"
 EndProject
 Global
@@ -21,6 +23,10 @@ Global
 		{DF51B9F2-CB6B-4956-AD33-4D3A837C1CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF51B9F2-CB6B-4956-AD33-4D3A837C1CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF51B9F2-CB6B-4956-AD33-4D3A837C1CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430330FD-B17D-4FF9-BC72-E2B5B829B421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430330FD-B17D-4FF9-BC72-E2B5B829B421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430330FD-B17D-4FF9-BC72-E2B5B829B421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430330FD-B17D-4FF9-BC72-E2B5B829B421}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
