@@ -67,6 +67,13 @@
     <Compile Include="Roland.Designer.cs">
       <DependentUpon>Roland.cs</DependentUpon>
     </Compile>
+    <Compile Include="ShaunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShaunForm.Designer.cs">
+      <DependentUpon>ShaunForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringManipulation.cs" />
     <EmbeddedResource Include="Bradley.resx">
       <DependentUpon>Bradley.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +91,9 @@
     </Compile>
     <EmbeddedResource Include="Roland.resx">
       <DependentUpon>Roland.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShaunForm.resx">
+      <DependentUpon>ShaunForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
