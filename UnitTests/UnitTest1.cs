@@ -20,5 +20,16 @@ namespace UnitTests
 
             Assert.IsTrue(isUpper);
         }
+
+        [TestMethod]
+        public void TestShaunsClass2()
+        {
+            StringManipulation sm = new StringManipulation();
+            String shouldFail = "notALLupperCASE";
+            String shouldPass = "ALLUPPERCASE";
+
+            Assert.IsFalse(sm.isUpper(shouldFail));
+            Assert.IsTrue(sm.isUpper(shouldPass));
+        }
     }
 }
